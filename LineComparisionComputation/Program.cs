@@ -39,6 +39,14 @@ namespace LineComparisionComputation
             {
                 Console.WriteLine("Both line length are equal");
             }
+            else if (length.CompareTo(line2) == 1)
+            {
+                Console.WriteLine("Length of line is greater than line2 of line");
+            }
+            else if (length.CompareTo(line2) == -1)
+            {
+                Console.WriteLine("Length of line is less than line2 of line");
+            }
             else
             {
                 Console.WriteLine("Line length are not equal");
