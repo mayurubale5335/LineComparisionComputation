@@ -10,6 +10,8 @@ namespace LineComparisionComputation
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Line Comparision Problem");
+            console.ReadLine();
         }
     }
 }
